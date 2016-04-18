@@ -1,0 +1,6 @@
+.idea/
+.bundle/
+chromedriver
+screenshots/
+.DS_Store
+Gemfile.lock

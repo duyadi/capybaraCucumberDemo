@@ -1,0 +1,1 @@
+default: --no-source --color --format pretty --format html --out report/result-<%= Time.now.strftime("%Y%m%d-%H%M%S")%>.html
