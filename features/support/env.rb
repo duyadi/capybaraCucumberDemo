@@ -15,9 +15,9 @@ Capybara.register_driver :selenium do |app|
 end
 
 Capybara.page.driver.browser.manage.window.maximize
-Capybara.default_max_wait_time = 3
+Capybara.default_max_wait_time = 30
 Capybara.ignore_hidden_elements = true
-
+# Capybara.ignore_hidden_elements = false
 
 SitePrism.configure do |config|
   config.use_implicit_waits = true
